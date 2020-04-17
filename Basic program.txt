@@ -1,0 +1,226 @@
+#Q. Swap 2 variables without using third variable
+#1
+'''
+no1=int(input("Enter a number1:"))
+no2=int(input("Enter a number2:"))
+no1,no2=no2,no1
+print(no1,no2)
+
+#2
+no1=int(input("Enter a number1:"))
+no2=int(input("Enter a number2:"))
+no1=no1+no2
+no2=no1-no2
+no1=no1-no2
+print(no1,no2)
+
+#3
+
+no1=int(input("Enter a number1:"))
+no2=int(input("Enter a number2:"))
+no1=no1^no2
+no2=no1^no2
+no1=no1^no2
+print(no1,no2)
+
+
+#Q.Accept the marks from user and print the corresponding grade
+marks=float(input("Enter a marks:"))
+if marks>=75:
+    print("grade A")
+elif marks>=55:
+    print("grade B")
+elif marks>=35:
+    print("grade C")
+else:
+    print("fail")
+
+
+#Q.accept a number from user-if it is divisible by 3 print "Three",if it is divisible by 7 print "Seven",if it is divisible by both 3&7 print "Three and Seven" 
+number=int(input("enter a number:"))
+if number%3==0 and number%7==0:
+    print("divisible by 3 and 7")
+elif number%3==0:
+    print("divisible by 3")    
+elif number%7==0 :
+    print("divisible by 7")
+else:
+    print("not divisible")
+
+
+#Q.Accept no from user check if it is odd or even number(do not use % operator)
+number=int(input("enter a number:"))
+if number&1==0:
+    print("no is even")
+else:
+    print("no is odd")
+
+
+#Q.Accept principal amount,rate of interest and years of investment then find the simple interest
+si=0
+pa=float(input("enter a principal amount:"))
+roi=float(input("enter a rate of interest:"))
+years=float(input("enter a year:"))
+si=(pa*roi*years)/100
+print("simple interest:",si)
+
+
+#Q.Accept 10 numbers from the user and calculate their sum
+sum=0
+for i in range(10):
+    num=int(input("enter a number:"))
+    sum+=num
+    print("sum is:",sum)
+
+
+#Q.Accept a number from user and find the factorial of the number
+f=1
+num=int(input("enter a number:"))
+for i in range(1,num+1):
+    f=f*i
+    print(i,"*",end="")
+print("factorial of",num,"is",f)
+
+#Q.Accept 10 numbers from user and count how many are positive,negative or zero
+cnt1=cnt2=cnt3=0
+for i in range(10):
+    num=int(input("enter a number:"))
+    if num>0:
+        cnt1+=1
+    elif num<0:
+        cnt2+=1
+    else:
+        cnt3+=1
+print("positive no:",cnt1,"negative no:",cnt2,"zeros are:",cnt3)
+      
+#Q.Accept a number from user and calculate the sum of the digits of the number
+sum=0
+num=int(input("enter a number"))
+while no>0:
+    d=no%10
+    print(d)
+    num=num//10
+    sum+=d
+print(sum)
+
+
+#Q. Accept a number from user and check if it is plaindrome or not
+num=int(input("enter a number"))
+tno=num
+rev=0
+while num>0:
+    d=num%10
+    rev=rev*10+d
+    num=num//10
+if rev==tno:
+    print("palindrome")
+else:
+    print("not palindrome")
+
+
+#Q.Accept a number from the user and print a table for that number
+table=0
+num=int(input("enter a number"))
+for i in range(1,11):
+    table=num*i
+    print(table)
+
+#Q. Accept a no from the user and check if it is armstrong number or not between the range of 100-1000
+d=0 
+for i in range(1,200001):
+    t=i
+    sum=0
+    while i!=0:
+        d=i%10
+        sum+=(d*d*d)
+        #print(d)
+        i//=10
+    if sum==t:
+        print(t)
+
+
+#Q.Go on accepting numbers from the user and till the user enters 0 and calculate the sum of these numbers
+sum=0
+while True:
+    n=int(input("enter a number"))
+    if n==0:
+        break
+    sum+=n
+print("sum is",sum)
+
+
+#Q.Accept a number from user and print the next 5 numbers
+n=int(input("enter a number"))
+for i in range(6):
+    n+=1
+    print(n)
+
+
+#Q.Accept a number from user and print those many numbers after the number
+no=int(input("enter a number"))
+for i in range(no):
+    no+=1
+    print(no) 
+
+
+#Q.Accept a number from user and print all even numbers from them
+start=int(input("enter starting number"))
+end=int(input("enter a ending number"))
+for i in range(start,end+1):
+    if i%2==0:
+        print(i)
+
+    
+#Q.Accept a number from user and print all odd numbers from them
+start=int(input("enter starting number"))
+end=int(input("enter a ending number"))
+for i in range(start,end+1):
+    if i%2==1:
+        print(i)    
+
+
+#Q.accept a number from user and print fibonacci series till that number
+num1=0
+num2=1
+num=int(input("enter a number"))
+for i in range(1,num+1):
+    print(num1)
+    sum=num1+num2
+    num1=num2
+    num2=sum
+    print(sum)
+
+
+#Q.Accept a number and a single digit from the user.Then check the number of occurence of that digit in the number
+num1=int(input("enter a number"))
+num2=int(input("enter a single digit"))
+tnum=num1
+c=0
+while tnum>0:
+    a=tnum%10
+    if a==num2:
+        c+=1
+        tnum//10
+print(a,"occures", c,"times")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
