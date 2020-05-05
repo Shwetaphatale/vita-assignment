@@ -12,16 +12,22 @@
 **How to attach IAM Roles to EC2**:
 **Steps:**
 1.  -*On AWS console select services and find Role*
-2.  -*In creat role select service as EC2 and click on next permission*
 ![image](https://user-images.githubusercontent.com/63608018/81038910-2d6c5f80-8ec5-11ea-9306-1c41c1001d37.png)
-3.  -*Search S3 in permission policies and select* **AmazonS3FullAccess**	
+
+2.  -*In creat role select service as EC2 and click on next permission*
 ![image](https://user-images.githubusercontent.com/63608018/81038954-4d9c1e80-8ec5-11ea-8ab6-a0bfac8e6f6e.png)
-4.  -*Click on dropdown and select JSON*
-![image](https://user-images.githubusercontent.com/63608018/81039059-9ce24f00-8ec5-11ea-88de-9f5ad707689d.png)
-5.  -*Click on next tag*
+
+3.  -*Search S3 in permission policies and select* **AmazonS3FullAccess**	
 ![image](https://user-images.githubusercontent.com/63608018/81039081-ab306b00-8ec5-11ea-8cab-de929f90db2c.png)
+
+4.  -*Click on dropdown and select JSON*
+
+5.  -*Click on next tag*
+![image](https://user-images.githubusercontent.com/63608018/81039117-bf746800-8ec5-11ea-9433-30533933af79.png)
+
 6.  -*Click on next review and give role name whichever we want*
 ![image](https://user-images.githubusercontent.com/63608018/81039145-cdc28400-8ec5-11ea-9ffb-4d8de61e20b0.png)
+
 7.  -*And finally click on creat*
 ![image](https://user-images.githubusercontent.com/63608018/81039177-e16dea80-8ec5-11ea-9d26-cf56d1be1546.png)
 
@@ -31,7 +37,8 @@
 2.  -*Select the instance*
 3.  -*Select actions and go to instance settings*
 5.  -*Select Attach/ Replace IAM*
-![image](https://user-images.githubusercontent.com/63608018/81039208-fba7c880-8ec5-11ea-8a81-ef2c40d1728e.png)
-6.  -*From drop down select the IAM which we created*
 ![image](https://user-images.githubusercontent.com/63608018/81039184-ea5ebc00-8ec5-11ea-9096-e18d5552e1ab.png)
+
+6.  -*From drop down select the IAM which we created*
 7.  -*Click on apply and then close*  
+![image](https://user-images.githubusercontent.com/63608018/81039208-fba7c880-8ec5-11ea-8a81-ef2c40d1728e.png)
