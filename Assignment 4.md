@@ -50,3 +50,54 @@
 7.  -*Click on apply and then close*  
 
 ![image](https://user-images.githubusercontent.com/63608018/81039208-fba7c880-8ec5-11ea-8a81-ef2c40d1728e.png)
+
+**Steps on MobaXterm**
+* aws s3 ls: *this command shows the bucket name*
+
+![image](https://user-images.githubusercontent.com/63608018/81166656-7a2d6480-8fb1-11ea-8222-e68cfdcacc7a.png)
+
+* ls -r: *this command shows all the folder inside that folder*
+
+![image](https://user-images.githubusercontent.com/63608018/81166824-cbd5ef00-8fb1-11ea-9989-4272c14a8ad4.png)
+
+
+* aws s3 ls --recursive: 
+
+![image](https://user-images.githubusercontent.com/63608018/81166994-16576b80-8fb2-11ea-8f5c-a8ef0adab479.png)
+
+*Copy the file from one folder to another and delete from original folder*
+
+![image](https://user-images.githubusercontent.com/63608018/81167377-bf05cb00-8fb2-11ea-93f2-c9de9c546459.png)
+
+
+* ls-a: *shows all files including hidden*
+
+![image](https://user-images.githubusercontent.com/63608018/81167520-f5dbe100-8fb2-11ea-9bb4-8e2c1bdc2eb5.png)
+
+* ls -l: *shows detail information of file*
+
+![image](https://user-images.githubusercontent.com/63608018/81167691-43f0e480-8fb3-11ea-86be-15c4525de5af.png)
+
+* history: *shows all command which is used till now*
+
+![image](https://user-images.githubusercontent.com/63608018/81167806-7d295480-8fb3-11ea-9ee2-5131c683860f.png)
+
+* Ctrl+r: *search any command by its initials* 
+
+![image](https://user-images.githubusercontent.com/63608018/81167943-b95cb500-8fb3-11ea-8870-538e5f6bfc91.png)
+
+![image](https://user-images.githubusercontent.com/63608018/81167999-d1cccf80-8fb3-11ea-9f2f-dc33264b6aa6.png)
+
+*  *In linux python language is inbuilt so we can use it*
+
+![image](https://user-images.githubusercontent.com/63608018/81168107-017bd780-8fb4-11ea-8631-ced9113450b2.png)
+
+* *Using python we an write a code*
+
+![image](https://user-images.githubusercontent.com/63608018/81168203-2a9c6800-8fb4-11ea-9417-17290f163b4d.png)
+
+
+
+
+
+
