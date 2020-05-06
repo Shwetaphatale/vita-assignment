@@ -2,7 +2,7 @@
 
 1.  *Select lambda from services and select creat function.*
 
-    ![image](https://user-images.githubusercontent.com/63608018/81195200-2899cf80-8fdb-11ea-9dbd-fbaa41ebca95.png)
+   ![image](https://user-images.githubusercontent.com/63608018/81195200-2899cf80-8fdb-11ea-9dbd-fbaa41ebca95.png)
 
 2.  *Here select use a blueprint and type hello keyword and select hello-world-python.*
   
