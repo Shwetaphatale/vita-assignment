@@ -10,9 +10,9 @@
 
 **Difference between EC2 and Lambda function**
 
-*EC2 instance runs like full operating system, but a virtual copy of all the hardware that the operating system needs to run. Here we have to pay charge for how much time our instance in running state.*
+* *EC2 instance runs like full operating system, but a virtual copy of all the hardware that the operating system needs to run. Here we have to pay charge for how much time our instance in running state.*
 
-*Lambda requires enough system resources to run specific program. We have to pay charge for lambda function only when we run the function*
+* *Lambda requires enough system resources to run specific program. We have to pay charge for lambda function only when we run the function*
 
 **How to create lambda function on AWS**
 
