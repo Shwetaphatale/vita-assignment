@@ -1,3 +1,19 @@
+**Difference between RDS in AWS and RDS inside EC-2 in AWS.**
+
+* **RDS in AWS:** *RDS is managed by AWS. 
+* It is maintained by AWS.
+
+
+* **RDS inside EC2:** *EC2 is managed by AWS but application inside it will be managed by developer. 
+* It is maintained by developer.
+
+
+**Difference between EC2 and Lambda function**
+
+*EC2 instance runs like full operating system, but a virtual copy of all the hardware that the operating system needs to run. Here we have to pay charge for how much time our instance in running state.*
+
+*Lambda requires enough system resources to run specific program. We have to pay charge for lambda function only when we run the function*
+
 **How to create lambda function on AWS**
 
 1.  *Select lambda from services and select creat function.*
