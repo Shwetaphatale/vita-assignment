@@ -1,0 +1,60 @@
+'''
+#Q1.1)
+no=int(input("enter a number:"))
+count=0
+while no!=0:
+    no=no//10
+    count+=1
+print("total count of digit is:", count)
+'''
+'''
+#Q1.2)
+list=[]
+no=int(input("enter a no: "))
+for i in range(no):
+    l=int(input())
+    list.append(l)
+print ("list:",list)
+for i in range((len(list)-1),-1,-1):
+    print(list[i])
+'''
+'''
+#Q2)
+str1=input("enter a str1: ")
+str2=input("enter a str2: ")
+mid=int(len(str1)/2)
+Appended_string = str1[:mid-1]+str2+str1[mid-1:]
+print("Appended_string:", Appended_string)
+'''
+'''
+#Q3)
+str=input("enter a string which is combination of upper and lower case char:")
+uppercase=[]
+lowercase=[]
+for i in str:
+    if i.isupper():
+        uppercase.append(i)
+    else:
+        lowercase.append(i)
+new_string=''.join(lowercase+uppercase)
+print(new_string)
+'''
+#Q4)
+def sum_digits(str1):
+    sum_digit=0
+    #avg_of_sum=0
+    for x in str1:
+        if x.isdigit() == True:
+            z = int(x)
+            sum_digit = sum_digit + z
+    return sum_digit
+print(sum_digits("12bjh45"))
+    
+'''
+#Q 5)
+listOne=[3,6,9,12,15,18,21]
+listTwo=[4,8,12,16,20,24,28]
+print("ListOne: ",listOne[1:-1:2])
+print("ListTwo: ",listTwo[::2])
+print("Final List: ",listOne[1::2] + listTwo[::2])
+'''
