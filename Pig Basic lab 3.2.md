@@ -6,24 +6,25 @@
 
 2. *Using DESCRIBE command view schema B.*
 
-![image](https://user-images.githubusercontent.com/63608018/88528368-2fedd980-d01c-11ea-8d61-d5ebbce6571b.png
+![image](https://user-images.githubusercontent.com/63608018/88530658-53feea00-d01f-11ea-9f90-bd1095344421.png)
 
 3. *Using the COUNT function determine how many lines of text are in visits.txt.*
 
-![image](https://user-images.githubusercontent.com/63608018/88528485-4eec6b80-d01c-11ea-9298-b7fa7bd3a276.png)
+![image](https://user-images.githubusercontent.com/63608018/88530737-77c23000-d01f-11ea-89cd-c6eb6390718d.png)
 
 4. *Use DUMP A view the result.*
-![image](https://user-images.githubusercontent.com/63608018/88528630-7fcca080-d01c-11ea-988f-b8e3cd2dc3ae.png)
 
-![image](https://user-images.githubusercontent.com/63608018/88528514-557ae300-d01c-11ea-9d29-9454f7b5cafe.png)
+![image](https://user-images.githubusercontent.com/63608018/88530892-ab9d5580-d01f-11ea-856f-f398ee38ed17.png)
+
+![image](https://user-images.githubusercontent.com/63608018/88530941-bd7ef880-d01f-11ea-8413-2d5d5ada2844.png)
 
 5. *Load the data using PigStorage(‘,’) instead of TextLoader(). Using FOREACH...GENERATE command define relation that is a projection of the first 10 fields of the visits       relation.Use LIMIT to display only 50 records.* 
 
-![image](https://user-images.githubusercontent.com/63608018/88528709-983cbb00-d01c-11ea-9d5c-a32dca4698c5.png)
+![image](https://user-images.githubusercontent.com/63608018/88531069-ea331000-d01f-11ea-8556-b19601d2b1cb.png)
 
 6. *Then DUMP the result.*
 
-![image](https://user-images.githubusercontent.com/63608018/88528785-b3a7c600-d01c-11ea-8133-12ba50206593.png)
+![image](https://user-images.githubusercontent.com/63608018/88531135-020a9400-d020-11ea-8ad2-c3efac797851.png)
 
 7. *Using last seven fields ($19 to $25) of visits. Use LIMIT to only output 500 records.*
 
