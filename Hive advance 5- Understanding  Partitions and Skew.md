@@ -30,7 +30,7 @@
 
 8. *Make directory named salarydata and put salarydata file in hdfs.  Using more command view skew_demo file using the salaries.txt data.*
 
-![image](https://user-imags.githubusercontent.com/63608018/90313414-0abcfe80-df2a-11ea-9ba7-8e861bb9f2b7.png)
+![image](https://user-images.githubusercontent.com/63608018/90313414-0abcfe80-df2a-11ea-9ba7-8e861bb9f2b7.png)
 
 9. *Run the skewdemo file and see output.*
 
